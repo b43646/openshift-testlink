@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir ${OPENSHIFT_DATA_DIR}logs
+mkdir ${OPENSHIFT_DATA_DIR}upload_area
+mv ${OPENSHIFT_REPO_DIR}cfg/config_db.inc.php ${OPENSHIFT_REPO_DIR}config_db.inc.php

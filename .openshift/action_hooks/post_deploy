@@ -1,0 +1,4 @@
+#!/bin/bash
+mysql -u "$OPENSHIFT_MYSQL_DB_USERNAME" --password="$OPENSHIFT_MYSQL_DB_PASSWORD" -h "$OPENSHIFT_MYSQL_DB_HOST" -P "$OPENSHIFT_MYSQL_DB_PORT" < ${OPENSHIFT_REPO_DIR}sql/testlink_create_tables.sql
+mysql -u "$OPENSHIFT_MYSQL_DB_USERNAME" --password="$OPENSHIFT_MYSQL_DB_PASSWORD" -h "$OPENSHIFT_MYSQL_DB_HOST" -P "$OPENSHIFT_MYSQL_DB_PORT" < ${OPENSHIFT_REPO_DIR}sql/testlink_create_default_data.sql
+rm ${OPENSHIFT_DATA_DIR}logsconfig_check.txt
