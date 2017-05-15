@@ -13,9 +13,6 @@ OpenShift Testlink
 
 ### Demo
  - ![Signin](https://github.com/calmelated/openshift-testlink/blob/master/demo/testlink-01.png?raw=true) 
- - ![Testcases](https://github.com/calmelated/openshift-testlink/blob/master/demo/testlink-02.png?raw=true) 
- - ![Report](https://github.com/calmelated/openshift-testlink/blob/master/demo/testlink-03.png?raw=true) 
- - ![Analysis](https://github.com/calmelated/openshift-testlink/blob/master/demo/testlink-04.png?raw=true) 
 
 ### License 
  - Please review http://testlink.org for specific testlink information & license
